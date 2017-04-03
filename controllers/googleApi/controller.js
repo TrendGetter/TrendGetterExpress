@@ -24,5 +24,4 @@ controller.getGoogleResults = (req, res) => {
       });
     });
 };
-
 module.exports = controller;
