@@ -17,12 +17,12 @@ npm packages & dependancies:
 "pg-promise": "^5.6.4"
 
 
-#API's
+# API's
 
 google: http://hawttrends.appspot.com/api/terms/
 reddit: https://www.reddit.com/r/all/hot/.json?count=10
 wiki: http://wikimedia.org/api/rest_v1/metrics/pageviews/top/en.wikipedia/all-access/${yesterday}
 youtube: https://www.googleapis.com/youtube/v3/videos?part=snippet&chart=mostPopular&maxResults=10&key=${APP_ID}
 
-#Function
+# Function
 backend sends API requests with list of items and some links for each item at specified urls for each api
